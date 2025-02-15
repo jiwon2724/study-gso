@@ -1,4 +1,4 @@
 interface Judge {
-    fun callWitness(witnessManager: WitnessManager): Witness
+    fun callToWitness(witnessManager: WitnessManager): Witness
     fun testify(witness: Witness)
 }

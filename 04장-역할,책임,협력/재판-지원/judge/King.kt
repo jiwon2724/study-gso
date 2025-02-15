@@ -1,5 +1,5 @@
 class King : Judge {
-    override fun callWitness(witnessManager: WitnessManager): Witness {
+    override fun callToWitness(witnessManager: WitnessManager): Witness {
         return witnessManager.callWitnessToStand()
     }
 
